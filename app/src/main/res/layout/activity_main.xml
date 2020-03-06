@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal">
+    <!--  Start : Your code should be within this block -->
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/image1"
+        android:background="@drawable/body"
+        ></ImageView>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imagearms"
+        android:background="@drawable/arms"
+        ></ImageView>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageears"
+        android:background="@drawable/ears"
+        ></ImageView>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageeyebrows"
+        android:background="@drawable/eyebrows"
+        ></ImageView>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageeyes"
+        android:background="@drawable/eyes"
+        ></ImageView>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageglasses"
+        android:background="@drawable/glasses"
+        ></ImageView>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imagehat"
+        android:background="@drawable/hat"
+        ></ImageView>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imagemouth"
+        android:background="@drawable/mouth"
+        ></ImageView>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imagemustache"
+        android:background="@drawable/mustache"
+        ></ImageView>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imagenose"
+        android:background="@drawable/nose"
+        ></ImageView>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageshoes"
+        android:background="@drawable/shoes"
+        ></ImageView>
+
+    <RadioGroup
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/G1"
+        android:layout_below="@+id/imageears">
+    <CheckBox
+        android:id="@+id/arms"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:text="arms" />
+    <CheckBox
+        android:id="@+id/ears"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:text="ears" />
+
+    <CheckBox
+        android:id="@+id/eyebrows"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:text="eyebrows" />
+    <CheckBox
+        android:id="@+id/eyes"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:text="eyes" />
+
+    <CheckBox
+        android:id="@+id/glasses"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:text="glasses" />
+    </RadioGroup>
+    <RadioGroup
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/G2"
+        android:layout_below="@+id/imageears"
+        android:layout_toRightOf="@+id/G1">
+    <CheckBox
+        android:id="@+id/hat"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:text="hat" />
+
+    <CheckBox
+        android:id="@+id/mouth"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:text="mouth" />
+    <CheckBox
+        android:id="@+id/mustache"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:text="mustache" />
+
+    <CheckBox
+        android:id="@+id/nose"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:text="nose" />
+
+    <CheckBox
+        android:id="@+id/shoes"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:text="shoes" />
+    </RadioGroup>
+
+</RelativeLayout>
